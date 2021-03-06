@@ -1,8 +1,54 @@
 body{
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
     background-color: #f9fafc;
 }
 
+header{font-size: .75em;
+
+}
+
+.navbar {
+    list-style-type: none;
+    display: block;
+    margin-left: -30px;
+    
+}
+
+.navbar li {
+    margin: 5px;
+}
+li a {
+    color: #69696a;
+    text-decoration: none;
+    }
+
+a:visited {
+    color: #69696a;
+    }
+
+
+
+
+.hireScroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 5px 30px 5px;
+    font-size: 2em;
+    height: 2em;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 1em;
+    
+}
+.description{
+    color: #69696a; 
+    margin: 50px 0px;
+    border-left: 5px solid #69696a;
+    padding-left: 20px;
+    font-size: .75em;
+}
 
 /*
 
